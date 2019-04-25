@@ -52,6 +52,11 @@
 <li>Specify which command to invoke as the specified tool for git difftool</li>
 </ul>
 </li>
+<li><code>git config &#x2013;global http.sslVerify false</code>
+<ul>
+<li>Tell git to ignore SSL certificates</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>Create repositories<a id="sec-2" name="sec-2">
