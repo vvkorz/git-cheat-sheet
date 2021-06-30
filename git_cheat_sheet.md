@@ -167,3 +167,6 @@
     * Detailed view of remote repos available
   * git remote add [remote] [url]
     * Add a new remote
+ 
+ * SSH Problems
+    * GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' git submodule update --init
