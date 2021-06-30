@@ -170,3 +170,6 @@
  
  * SSH Problems
     * GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' git submodule update --init
+ 
+ * Clean up local merged branches
+    * git branch --merged | egrep -v '(^\*|master|main|dev|prod|develop|development|production)’ |  xargs git branch -d
